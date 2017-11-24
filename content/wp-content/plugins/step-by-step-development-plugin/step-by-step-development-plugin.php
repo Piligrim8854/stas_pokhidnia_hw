@@ -25,4 +25,6 @@ Author URI: http://www.sg2lessons2.ho.ua/
     Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
+require_once dirname(__FILE__).'/includes/StepByStepPlugin.php';
+
 ?>
