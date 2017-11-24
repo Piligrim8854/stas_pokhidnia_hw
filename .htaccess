@@ -30,3 +30,28 @@ RewriteRule . /index.php [L]
 </IfModule>
 
 # END WordPress
+
+#wp-config protect
+
+<Files wp-config.php>
+ order allow,deny
+ deny from all
+ </Files>
+
+#you can not see files
+
+ Options All -Indexes
+
+
+ # Protect the .htaccess
+<files .htaccess="">
+ order allow,deny
+ deny from all
+ </files>
+
+#htaccess protect
+ <Files ~ "^.*\.([Hh][Tt][Aa])">
+ order allow,deny
+ deny from all
+ satisfy all
+ </Files>
