@@ -5,12 +5,12 @@
 
 require_once(ABSPATH . 'wp-settings.php');
 
-define( 'WP_CONTENT_DIR', $_SERVER['DOCUMENT_ROOT'] . '/blog/content/wp-content' );
+define( 'WP_CONTENT_DIR', $_SERVER['DOCUMENT_ROOT'] . '/content/wp-content' );
 define( 'WP_CONTENT_URL', 'http://http://www.sg2lessons2.ho.ua/content/wp-content');
 
 
 
-define( 'WP_PLUGIN_DIR', $_SERVER['DOCUMENT_ROOT'] . '/blog/content/wp-content/plugins' );
+define( 'WP_PLUGIN_DIR', $_SERVER['DOCUMENT_ROOT'] . '/content/wp-content/plugins' );
 define( 'WP_PLUGIN_URL', 'http://http://www.sg2lessons2.ho.ua/content/wp-content/plugins');
 
 /**
